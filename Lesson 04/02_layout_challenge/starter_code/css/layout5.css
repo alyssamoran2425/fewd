@@ -49,13 +49,13 @@
 }
 
 .exerciseMainContentBanner {
-
+    flex: 100%;
 }
 
 .exerciseMainContentSubBanner {
-
+    flex: 75%;
 }
 
 .exerciseMainContentBlock {
-
+    flex: 25%;
 }

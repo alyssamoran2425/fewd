@@ -1,6 +1,10 @@
 /* ################################################## */
 /* ########### Global classes / overrides ########### */
 /* ################################################## */
+html, body{
+  height: 100%;
+  font-family: 'Lato', sans-serif;
+}
 h1, h2, h3, h4, h5, h6, p {
   margin: 0;
 }
@@ -24,3 +28,74 @@ p {
 
 /* Background Image */
 /* https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/coworking.jpg */
+
+.mmheader {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 30px;
+  border-bottom: 5px solid #f2ff00;
+  align-items: center;
+}
+
+.mmheader a{
+  color: white;
+  text-decoration: none;
+}
+.mmheader h1 {
+  text-transform: capitalize;
+  font-family: 'Merriweather', serif;
+  font-size: 32px;
+}
+.mmheader ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 20px;
+  gap: 15px;
+  margin: 0;
+}
+
+.mmheader a:hover{
+  color: #ffd900;
+}
+
+.mmheader h1 a {
+  color: #f2ff00;
+}
+  
+
+
+
+.quoteText {
+  background-color: #adadad;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+}
+
+.quoteText p {
+  font-size: 28;
+  margin: 0;
+}
+
+.quoteText .underline {
+  border-bottom: 3px solid #f2ff00;
+}
+
+.btn {
+  background-color: grey;
+  display: block;
+}
+
+.btnbold {
+  display: yellow;
+}
+
+.bottomfooter {
+  background-color: #000;
+  color: #fff;
+  padding: 15px 25px;
+}
