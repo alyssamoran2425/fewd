@@ -88,7 +88,6 @@ p {
 }
 
 .btn {
-  text-transform: capitalize;
   background-color: #adadad;
   display: block;
   font-size: 24px;
@@ -101,10 +100,11 @@ p {
  text-shadow: #878787;
  padding: 2%;
  font-weight: lighter;
- 
+ text-transform: uppercase;
 }
 
 .btnbold {
+  
   background-color: yellow;
   border-bottom-color: #ffd900;
   border-radius: 4px;
