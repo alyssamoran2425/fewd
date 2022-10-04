@@ -21,3 +21,104 @@ h1, h2, h3, h4, h5, h6 {
 /* Fitzroy: https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/fitzroy.jpg */
 /* St. Kilda: https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/st-kilda.jpg  */
 /* CBD: https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/central-business-district.jpg */
+
+.airBnB-topnav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.airBnB-topnav img {
+  padding: 10px 30px;
+  max width: 100px;
+}
+
+.airBnB-topnav nav ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 10px;
+  margin-right: 30px;
+
+}
+
+.airBnB-topnav nav li a{
+  color: black;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.airBnB-hero{
+  background-image: url(melbourne.jpg);
+  min-height: 550px;
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.airBnB-hero h1{
+  font-size: 64px;
+  text-align: center;
+}
+
+.airBnB-hero-box{
+color: white;
+max-width: 400px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.airBnB-hero p{
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 0;
+}
+
+.airBnB-button{
+  background:#ff5358 ;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 15px;
+  border-radius: 3px;
+  border-bottom: 2px solid #e00007;
+}
+
+.airBnB-button:hover{
+  background:#e00007 ;
+}
+
+.airBnB-locals{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  background: #efefef;
+  padding: 40px 10px;
+}
+
+.airBnB-locals-note {
+  background: white;
+  border: 1px solid #dbdbdb;
+  display: grid;
+  grid-template-columns: 80px 1fr;
+  align-items: center;
+}
+
+.airBnB-locals-note h1 {
+  background: #efefef;
+  padding: 10px;
+  font-size:  14px;
+  grid-column: span 2;
+}
+
+.airBnB-locals-note img{
+  margin: 10px;
+}
