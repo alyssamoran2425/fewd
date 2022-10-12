@@ -1,3 +1,4 @@
+
 // stopLight turns on the red light, but also turns off the yellow and green
 function stopLight(){
   document.getElementById('stopLight').classList.add('red');
