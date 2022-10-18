@@ -1,7 +1,3 @@
-
-
-
-
 // Create a function that determines the computer choice.  It should return one of the three values: 'rock', 'paper', or 'scissors'
 function computerChoice() {
     let computerChoiceNumber = Math.ceil( Math.random()*3 ) ;
@@ -20,13 +16,15 @@ function computerChoice() {
 
 function compare(me, opponent)  {
 
+    document.querySelector('#computerSelection').innerText = opponent;
+
 
     let winnerText; if (me === opponent ){
         winnerText = "Its a Tie";
     } 
     
     
-    else if(me === 'rock') {
+else if(me === 'rock') {
     
         if (opponent === 'paper'){
             winnerText = "Paper beats Rock";
