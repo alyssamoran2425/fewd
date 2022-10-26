@@ -6,6 +6,7 @@ let score = 0;
 let arenaEl = document.querySelector('.js-arena');
 let scoreEl = document.querySelector('.js-score');
 
+
 arenaEl.addEventListener('click', function(e) {
   if ( e.target.classList.contains('js-ball') ) {
     score += 10;
