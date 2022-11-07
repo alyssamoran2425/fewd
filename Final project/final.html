@@ -4,49 +4,179 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
-    <title>Document</title>
+    <title>Portfolio project</title>
 </head>
 <body>
+    <nav class="navbar navbar-expand-lg fixed-top navbarScroll">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+                
+            </div>
+        </div>
+    </nav>
     <header>
-        <div class="portfolio_img">
-            <img src="" alt="">
-        </div>
-        <div>
-            <h1 class="name_section">
-                Hello, my name is Alyssa Moran and I am a Front-End web Developer.
-            </h1>
-            <div class="ResumeBtn">
-            <a href=""></a>
-            <div class="ResumeBtnText">Download Resume</div>
+    <section class="bgimage" id="home">
+        <div class="container-fluid">
+            <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+                <h2 class="hero_title">Hello, my name is Alyssa Moran.</h2>
+                <p class="hero_desc">I am a Front-End web Developer.</p>
+            </div>
             </div>
         </div>
-    </header>
-    <main>
-        <section>
-            <div>
-                <h1>About me</h1>
-                <h2>Personal Information</h2>
-                <ul>
-                    <li> First Name: Alyssa</li>
-                    <li>Last Name: Moran</li>
-                    <li>Location: Goodyear, Arizona</li>
-                </ul>
-                <h2>Skills</h2>
-                <ul>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JavaScript</li>
-                </ul>
-                <h2>Education</h2>
-                <p>2022 Front-End web Deveopment-</p>
+    </section>
+</header>
+
+<section id="about">
+    <div class="container mt-4 pt-4">
+        <h1 class="text-center">About Me</h1>
+                <div class="row mt-4">
+                    <div class="col-md-8">
+                        <h2>Personal Information</h2>
+                        <ul>
+                            <li>First Name: Alyssa</li>
+                            <li>Last Name: Moran</li>
+                            <li>Location: Arizona</li>
+
+                        </ul>
+                    </div>
+                    <div class="col-md-8">
+                        <h2>Skills</h2>
+                        <ul>
+                            <li>HTML</li>
+                            <li>JavaScript</li>
+                            <li>CSS</li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="row mt-4">
+                    <h2>Education</h2>
+
+                    <p> General Assembly 2022 Front-End Web Deveopment
+                    </p>
+                </div>
+            </div>
+        </div>
+</section>
+<!-- portfolio section-->
+<section id="portfolio">
+    <div class="container mt-3">
+        <h1 class="text-center">Portfolio</h1>
+        <div class="row">
+            <div class="col-lg-4 mt-4">
+                <div class="card">
+                    <img class="card-img-top" src="photos/project1.PNG" alt="rover" style="width:100%">
+                    <div class="card-body">
+                        <h4 class="card-title"></h4>
+                        <p class="card-text"></p>
+                        <div class="text-center">
+                            <a href="http://127.0.0.1:5500/Lesson%2012/01_Rover/rover-solution/index.html" class="btn btn-success">Link</a>
+                        </div>
+                    </div>
+                </div>
             </div>
 
-        </section>
+            <div class="col-lg-4 mt-4">
+                <div class="card portfolioContent">
+                    <img class="card-img-top" src="photos/project2.PNG" alt="relaxr" style="width:100%">
+                    <div class="card-body">
+                        <h4 class="card-title"></h4>
+                        <p class="card-text"></p>
+                        <div class="text-center">
+                            <a href="http://127.0.0.1:5500/Lesson%2015/02_BootstrapFormLab/starter_code/login.html?" class="btn btn-success">Link</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-    </main>
+            <div class="col-lg-4 mt-4">
+                <div class="card portfolioContent">
+                    <img class="card-img-top" src="photos/project3.PNG" alt="trulia" style="width:100%">
+                    <div class="card-body">
+                        <h4 class="card-title"></h4>
+                        <p class="card-text"></p>
+                        <div class="text-center">
+                            <a href="http://127.0.0.1:5500/Homework%2006/starter_code/index.html" class="btn btn-success">Link</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-lg-4 mt-4">
+                <div class="card portfolioContent">
+                    <img class="card-img-top" src="photos/project4.PNG" alt="xia" style="width:100%">
+                    <div class="card-body">
+                        <h4 class="card-title"></h4>
+                        <p class="card-text"></p>
+                        <div class="text-center">
+                            <a href="http://127.0.0.1:5500/Homework%2001/starter_code/homework%20.html" class="btn btn-success">Link</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-    <script src="main.js" charset="utf-8"></script>
-</body>
-</html>
+            <div class="col-lg-4 mt-4">
+                <div class="card portfolioContent">
+                    <img class="card-img-top" src="photos/project5.PNG" alt="startup" style="width:100%">
+                    <div class="card-body">
+                        <h4 class="card-title"></h4>
+                        <p class="card-text"></p>
+                        <div class="text-center">
+                            <a href="http://127.0.0.1:5500/Homework%2002/starter_code/index.html" class="btn btn-success">Link</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 mt-4">
+                <div class="card portfolioContent">
+                    <img class="card-img-top" src="photos/project6.PNG" alt="dots-game" style="width:100%">
+                    <div class="card-body">
+                        <h4 class="card-title"></h4>
+                        <p class="card-text"></p>
+                        <div class="text-center">
+                            <a href="http://127.0.0.1:5500/Homework%2004/starter_code/index.html" class="btn btn-success">Link</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
+<!-- contact section-->
+<section id="contact">
+    <div class="container mt-3 contactContent">
+        <h1 class="text-center">Contact Me</h1>
+
+            <div class="col-lg-6">
+                <!-- form fields -->
+                
+                <a href="mailto:alyssa.moran2425@gmail.com" button type="button" class="btn btn-success mt-3" >Contact Me</a>
+                
+            </div>
+
+        </div>
+    </div>
+</section>

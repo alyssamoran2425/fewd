@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+/* display background color black on navbar scroll */
+.navbarScroll.navbarDark {
+    background-color: black;
+}
+
+/* hero background image */
+.bgimage {
+    height:100vh;
+    background: url('images/heroImage.jpeg');
+    background-size:cover;
+    position:relative;
+}
+/* text css above hero image*/
+.hero_title {
+    font-size: 4.5rem;
+}
+.hero_desc {
+    font-size: 2rem;
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+}
+
+/* spacing on all sections */
+ #about, #portfolio, #contact {
+    margin-top: 4rem;
+    padding-top: 4rem;
+} 
+#contact {
+    padding-bottom: 4rem;
+}
+/* about section image css */
+.imageAboutPage {
+    width: 100%;
+}
+
+
+/*button color*/
+.b.bttn-sucess{
+    color: black;
+    background-color: blue;
+    border-color: blue;
+}
+/* footer styling */
+#footer {
+    background-color:black;
+    text-align: center;
+}
