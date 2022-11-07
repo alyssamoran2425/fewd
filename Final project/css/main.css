@@ -6,6 +6,7 @@
 }
 /* display background color black on navbar scroll */
 .navbarScroll.navbarDark {
+    color: white;
     background-color: black;
 }
 
@@ -47,13 +48,7 @@
 
 
 /*button color*/
-.b.bttn-sucess{
-    color: black;
-    background-color: blue;
-    border-color: blue;
-}
-/* footer styling */
-#footer {
+.color {
+    color:white;
     background-color:black;
-    text-align: center;
-}
+  }
