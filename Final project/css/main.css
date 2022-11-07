@@ -6,7 +6,6 @@
 }
 /* display background color black on navbar scroll */
 .navbarScroll.navbarDark {
-    color: white;
     background-color: black;
 }
 
