@@ -1,0 +1,65 @@
+h1{
+
+    color: #05080c;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    border-right: #222222;
+    -webkit-text-stroke: 0.3px #05080c;
+    overflow: hidden;
+    position: static;
+    animation: animate 6s linear infinite;
+
+}
+
+@keyframes animate
+{
+    0%,10%,100%
+    {
+        width: 0;
+    }
+    70%,90%
+    {
+        width: 100%;
+    }
+}
+
+body{
+    color: #05080c;
+    font-size: 18px;
+    line-height: 1.5;
+    background: #f6f6f6;
+    margin: 0;
+    font-family: Georgia, Times, "Times New Roman", serif;
+}
+
+p{
+    font-family: Georgia, Times, "Times New Roman", serif;   
+}
+
+header {
+    border-top: 5xp solid #222222 ; 
+    padding: 0 100px;
+    font-weight: bold;
+}
+
+article {
+    border-bottom: 5px solid #222222;
+    padding: 0 100px;
+}
+
+article img{
+   float: right ; 
+   margin-left: 16px;
+}
+
+th{
+    background-color: #222222;
+    color: antiquewhite;
+    text-decoration: underline;
+    padding: 5px;
+}
+
+td{
+    background-color:#eeeeee;
+}

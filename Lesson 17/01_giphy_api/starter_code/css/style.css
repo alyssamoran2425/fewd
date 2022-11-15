@@ -10,6 +10,8 @@ form {
 }
 
 #giphy-results {
-  display: grid;
+  display: grid; 
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
   /* CSS Bonus: Use flex or grid properties to display the results in a responsive, clean layout */
 }

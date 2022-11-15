@@ -87,7 +87,7 @@ a {
     font-weight: 600;
     font-size: 28px;
     color: rgb(10,15,10);
-    text-transform:allcaps;
+    text-transform:uppercase;
 }
 
 /* Single Breed Container */
